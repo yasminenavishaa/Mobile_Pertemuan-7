@@ -46,6 +46,7 @@ Bagian tombol berisi 3 kolom yang menggunakan tata letak yang sama—sebuah ikon
 Karena kode untuk membangun setiap kolom hampir sama, buatlah metode pembantu pribadi bernama buildButtonColumn(), yang mempunyai parameter warna, Icon dan Text, sehingga dapat mengembalikan kolom dengan widgetnya sesuai dengan warna tertentu.
 
 lib/main.dart (_buildButtonColumn)
+
 ![Alt text](imagess/image-7.png)
 
 ## Langkah 2: Buat widget buttonSection
@@ -54,6 +55,7 @@ Buat Fungsi untuk menambahkan ikon langsung ke kolom. Teks berada di dalam Conta
 Bangun baris yang berisi kolom-kolom ini dengan memanggil fungsi dan set warna, Icon, dan teks khusus melalui parameter ke kolom tersebut. Sejajarkan kolom di sepanjang sumbu utama menggunakan MainAxisAlignment.spaceEvenly untuk mengatur ruang kosong secara merata sebelum, di antara, dan setelah setiap kolom. Tambahkan kode berikut tepat di bawah deklarasi titleSection di dalam metode build():
 
 lib/main.dart (buttonSection)
+
 ![Alt text](imagess/image-8.png)
 
 ## Langkah 3: Tambah button section ke body
@@ -86,11 +88,13 @@ Anda dapat mencari gambar di internet yang ingin ditampilkan. Buatlah folder ima
 
 ## Langkah 2: Tambahkan gambar ke body
 Tambahkan aset gambar ke dalam body seperti berikut:
+![Alt text](imagess/image-16.png)
 
 BoxFit.cover memberi tahu kerangka kerja bahwa gambar harus sekecil mungkin tetapi menutupi seluruh kotak rendernya.
 
 ## Langkah 3: Terakhir, ubah menjadi ListView
 Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karena ListView mendukung scroll yang dinamis saat aplikasi dijalankan pada perangkat yang resolusinya lebih kecil.
+![Alt text](imagess/image-15.png)
 
 ## Hasil Running
-![Alt text](image.png)
+![Alt text](image-14.png)
