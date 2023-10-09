@@ -97,4 +97,4 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 ![Alt text](imagess/image-15.png)
 
 ## Hasil Running
-![Alt text](image-14.png)
+![Alt text](imagess/image-14.png)
