@@ -1,5 +1,5 @@
 ## **(2141720047) Yasmine Navisha Andhani - TI_3G**
-Link Github : 
+Link Github : https://github.com/yasminenavishaa/Mobile_Pertemuan-7 
 
 # Jobsheet Pertemuan 7 - Layout dan Navigasi
 # Praktikum 1 : Membangun Layout di Flutter
